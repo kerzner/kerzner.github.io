@@ -26,8 +26,6 @@
 
         <!-- Logo -->
         <div id="logo">
-            <span class="image avatar48"><img src="images/kerzner.jpg" alt=""/></span>
-
             <h1 id="title">Ethan Kerzner</h1>
 
             <p>Computer Scientist</p>
@@ -35,23 +33,10 @@
 
         <!-- Nav -->
         <nav id="nav">
-            <!--
-
-                Prologue's nav expects links in one of two formats:
-
-                1. Hash link (scrolls to a different section within the page)
-
-                   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-                2. Standard link (sends the user to another page/site)
-
-                   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-            -->
             <ul>
                 <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">About</span></a>
                 </li>
-                <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a>
+                <li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a>
                 </li>
                 <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a>
                 </li>
@@ -63,13 +48,13 @@
     <div class="bottom">
 
         <!-- Social Icons -->
+        <!--
         <ul class="icons">
             <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
             <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
         </ul>
+        -->
 
     </div>
 
@@ -83,27 +68,31 @@
         <div class="container">
 
             <header>
-                <h2 class="alt">I am Ethan Kerzner.</h2>
-
-                <p>A computer scientist focused on visualization and graphics.</p>
+                <div class="row">
+                    <div class="3u 3u(mobile)">
+                        <span class="image"><img src="images/kerzner.jpg" style="border-radius: 50%; width: 100%;"
+                                                 alt=""/></span>
+                    </div>
+                    <div class="8u 8u(mobile)">
+                        <h2>Hi! I am a computer scientist focused on visualization and graphics.</h2><br>
+                        <a href="#projects" class="button scrolly">See my projects</a>
+                    </div>
+                </div>
             </header>
 
-            <footer>
-                <a href="#portfolio" class="button scrolly">See my projects</a>
-            </footer>
 
         </div>
     </section>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="two">
+    <section id="projects" class="two">
         <div class="container">
 
             <header>
                 <h2>Projects</h2>
             </header>
 
-            <p>Here's a select list of my projects. Please see my scholar profile for a full publication list.</p>
+            <p>Here's a select list of my projects. Please see my <a href="https://scholar.google.com/citations?user=OgvMzlAAAAAJ&hl=en">scholar profile</a> for a full publication list.</p>
 
             <div class="row">
                 <div class="12u 12u$(mobile)">
@@ -117,7 +106,7 @@
                         </header>
                         <p>Visualization software to help neuroscientists reverse engineer the eye.
                             <span class="resources">
-                                <a href="http://prometheus.med.utah.edu/~marclab/" target="_blank">collaborators</a>
+                                <a href="http://prometheus.med.utah.edu/~marclab/">collaborators</a>
                             </span>
                         </p>
                     </article>
@@ -132,10 +121,11 @@
                         <p>
                             Software for defense analysts to understand vehicle vulnerability.
                             <span class="resources">
-                                <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pdf" target="_blank">paper</a> |
+                                <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pdf">paper</a> |
                                 <a href="./projects/2015_eurovis_shotviewer.zip">source code (zip)</a> |
                                 <a href="./projects/2015_eurovis_data.zip">example data (zip)</a> |
-                                <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pptx">slides (pptx)</a>
+                                <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pptx">slides
+                                    (pptx)</a>
                             </span>
                         </p>
                     </article>
@@ -150,8 +140,10 @@
                         <p>
                             An algorithm for reduced memory usage and shading costs of anti-aliasing.
                             <span class="resources">
-                                <a href="./projects/2014_hpg_StreamingGBufferCompression.pdf" target="_blank">paper</a> |
-                                <a href="https://github.com/kerzner/streaming-g-buffer-compression" target="_blank">source and data</a>
+                                <a href="./projects/2014_hpg_StreamingGBufferCompression.pdf">paper</a> |
+                                <a href="https://github.com/kerzner/streaming-g-buffer-compression">source
+                                    code
+                                    and data</a>
                             </span>
                         </p>
                     </article>
@@ -168,25 +160,11 @@
             <header>
                 <h2>Contact</h2>
             </header>
-
-            <p>Elementum sem parturient nulla quam placerat viverra
-                mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-                donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-                orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-            <form method="post" action="#">
-                <div class="row">
-                    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name"/></div>
-                    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email"/></div>
-                    <div class="12u$">
-                        <textarea name="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="12u$">
-                        <input type="submit" value="Send Message"/>
-                    </div>
-                </div>
-            </form>
-
+            I am PhD student in the <a href="http://vdl.sci.utah.edu/">Vis Design Lab</a> at the<a
+                href="https://www.cs.utah.edu/"> University of Utah School of Computing</a>.
+            <br><br>Please <a
+                href="mailto:ethanDOTkerznerATgmailDOTcom"
+                onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">email me</a> to get in touch!
         </div>
     </section>
 
@@ -197,7 +175,7 @@
 
     <!-- Copyright -->
     <ul class="copyright">
-        <li>&copy; Ethan Kerzner. All rights reserved.</li>
+        <li>&copy; Ethan Kerzner. All rights reserved. Design by <a href="http://html5up.net/">HTML5 UP</a></li>
     </ul>
 
 </div>
