@@ -4,125 +4,117 @@
     <title>Ethan Kerzner</title>
     <meta charset="utf-8"/>
     <link type="text/css" href="index.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/bootstrap.css" rel="stylesheet">
+
 </head>
 <body>
 
 <!-- Main -->
-<div class="vflex half-width">
-    <div class="full-width no-shrink top-bar">
-        <span class="logo">Ethan Kerzner</span>
+
+<div class="container">
+    <div class="title">
+        <h1>
+            Ethan Kerzner
+        </h1>
     </div>
+    <div class="row">
+        <div class="main">
+            <div id="left">
+                <div style="width: 26%; float: left">
+                    <img src="images/kerzner.jpg" alt="Mountain View" style="max-width: 95%; border-radius: 15px;">
+                </div>
 
-    <h1>
-        About
-    </h1>
-    <div class="hflex flex-root">
-        <div style="width: 40%;">
-            <img src="images/kerzner.jpg" alt="Mountain View" style="max-width: 95%; border-radius: 15px;">
+                <div>
+                    <p> I'm a computer scientist focused on on the design and development of visualization software
+                        for expert users. In my graduate research, I work closely with analysts in various domains
+                        to
+                        understand their data analysis needs and propose visualization solutions to fulfill those
+                        needs.
+                    </p>
+                    <p>
+                        I work under the guidance of Miriah Meyer and Alexander Lex in the <a
+                            href="http://vdl.sci.utah.edu/">Vis
+                        Design Lab</a> at the<a
+                            href="https://www.cs.utah.edu/"> University of Utah School of Computing</a>.
+                    </p>
+                    <p>
+                        A select set of my projects is listed below.
+                    </p>
+                </div>
+
+                <h3>
+                    Projects
+                </h3>
+
+                <div class="vflex flex-root">
+                    <div class="project">
+                        <div class="project-title">Connectome visualization</div>
+                        <div class="project-description">Software to help neuroscientists reverse engineer the eye.
+                        </div>
+                        <div class="project-links">
+                            <a href="http://prometheus.med.utah.edu/~marclab/">collaborators</a>
+                            |
+                            <a href="https://github.com/VisDesignLab/TulipPaths">tulip plugins (github)</a>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-title">Visual vulnerability analysis</div>
+                        <div class="project-description"> Software for defense analysts to understand vehicle
+                            vulnerability.
+                        </div>
+                        <div class="project-links">
+                            <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pdf">paper</a> |
+                            <a href="./projects/2015_eurovis_shotviewer.zip">source code (zip)</a> |
+                            <a href="./projects/2015_eurovis_data.zip">example data (zip)</a> |
+                            <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pptx">slides</a>
+                        </div>
+                    </div>
+
+
+                    <div class="project">
+                        <div class="project-title">Streaming compression for anti-aliasing</div>
+                        <div class="project-description">An algorithm for reduced memory usage and shading costs of
+                            anti-aliasing.
+                        </div>
+                        <div class="project-links">
+                            <a href="./projects/2014_hpg_StreamingGBufferCompression.pdf">paper</a> |
+                            <a href="https://github.com/kerzner/streaming-g-buffer-compression">source (github)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Bio</h3>
+            </div>
+
+            <div class="side-bar">
+
+                <h3>Contact</h3>
+
+                <div>
+                    Ethan Kerzner<br>
+                    SCI Institute<br>
+                    University of Utah
+                </div>
+
+                <div>
+                    <a href="https://scholar.google.com/citations?user=OgvMzlAAAAAJ&hl=en">Scholar profile</a>
+                </div>
+
+                <div>
+                    <a href="mailto:ethanDOTkerznerATgmailDOTcom"
+                       onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">Email</a>
+                </div>
+
+                <div>
+                    <a href="https://github.com/kerzner">Github</a>
+                </div>
+
+
+            </div>
+
         </div>
-        <p style="display:inline">I focus on the design and development of visualization software for expert users in
-            large organizations. In my
-            graduate work I conducted design studies to understand the analysis challenges of physicians, defense
-            analysts,
-            and neuroscientists. Throughout these projects, I have recommended solutions based on a mix of custom built
-            and commodity software. A select set of my projects is listed below. Please see my
-            <a href="https://scholar.google.com/citations?user=OgvMzlAAAAAJ&hl=en">scholar profile</a> for a full
-            publication and patent list.
-        </p>
-
     </div>
-
-    <h1>
-        Projects
-    </h1>
-    <!--TODO; make these into nice titles + details-->
-    <div class="hflex flex-root">
-        <div>
-            <h3>Connectome visualization</h3>
-        </div>
-
-
-    </div>
-
-    <!--<h3>Connectome Visualization-->
-    <!--<span class="date">-->
-    <!--In progress-->
-    <!--</span>-->
-    <!--</h3>-->
-    <!--</header>-->
-    <!--<p>Visualization software to help neuroscientists reverse engineer the eye.-->
-    <!--<span class="resources">-->
-    <!--<a href="http://prometheus.med.utah.edu/~marclab/">collaborators</a>-->
-    <!--</span>-->
-    <!--</p>-->
-    <!--</article>-->
-    <!--<article class="item">-->
-    <!--<header>-->
-    <!--<h3>Visual Vulnerability Analysis-->
-    <!--<span class="date">-->
-    <!--Published in EuroVis 2015-->
-    <!--</span>-->
-    <!--</h3>-->
-    <!--</header>-->
-    <!--<p>-->
-    <!--Software for defense analysts to understand vehicle vulnerability.-->
-    <!--<span class="resources">-->
-    <!--<a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pdf">paper</a> |-->
-    <!--<a href="./projects/2015_eurovis_shotviewer.zip">source code (zip)</a> |-->
-    <!--<a href="./projects/2015_eurovis_data.zip">example data (zip)</a> |-->
-    <!--<a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pptx">slides-->
-    <!--(pptx)</a>-->
-    <!--</span>-->
-    <!--</p>-->
-    <!--</article>-->
-    <!--<article class="item">-->
-    <!--<header>-->
-    <!--<h3>Streaming Compression for Anti-Aliasing-->
-    <!--<span class="date">-->
-    <!--Published in HPG 2014-->
-    <!--</span>-->
-    <!--</h3>-->
-    <!--</header>-->
-    <!--<p>-->
-    <!--An algorithm for reduced memory usage and shading costs of anti-aliasing.-->
-    <!--<span class="resources">-->
-    <!--<a href="./projects/2014_hpg_StreamingGBufferCompression.pdf">paper</a> |-->
-    <!--<a href="https://github.com/kerzner/streaming-g-buffer-compression">source-->
-    <!--code-->
-    <!--and data</a>-->
-    <!--</span>-->
-    <!--</p>-->
-    <!--</article>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!-- Contact -->
-    <section id="contact" class="four">
-        <div class="container">
-
-            <header>
-                <h2>Contact</h2>
-            </header>
-            I am PhD student in the <a href="http://vdl.sci.utah.edu/">Vis Design Lab</a> at the<a
-                href="https://www.cs.utah.edu/"> University of Utah School of Computing</a>.
-            <br><br>Please <a
-                href="mailto:ethanDOTkerznerATgmailDOTcom"
-                onclick="this.href=this.href.replace(/AT/,'&#64;').replace(/DOT/,'&#46;')">email me</a> to get in touch!
-        </div>
-    </section>
-
 </div>
-
-<!-- Footer -->
-<div id="footer">
-
-    <!-- Copyright -->
-
-    &copy; Ethan Kerzner. All rights reserved
-
-
-</div>
-
-
 </body>
 </html>
