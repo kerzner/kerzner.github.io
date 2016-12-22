@@ -1,157 +1,100 @@
 <!DOCTYPE HTML>
-<!--
-	Prologue by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
--->
 <html>
 <head>
     <title>Ethan Kerzner</title>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!--[if lte IE 8]>
-    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
-    <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+    <link type="text/css" href="index.css" rel="stylesheet">
 </head>
 <body>
 
-<!-- Header -->
-<div id="header">
-
-    <div class="top">
-
-        <!-- Logo -->
-        <div id="logo">
-            <h1 id="title">Ethan Kerzner</h1>
-
-            <p>Computer Scientist</p>
-        </div>
-
-        <!-- Nav -->
-        <nav id="nav">
-            <ul>
-                <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">About</span></a>
-                </li>
-                <li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a>
-                </li>
-                <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a>
-                </li>
-            </ul>
-        </nav>
-
-    </div>
-
-    <div class="bottom">
-
-        <!-- Social Icons -->
-        <!--
-        <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-        -->
-
-    </div>
-
-</div>
-
 <!-- Main -->
-<div id="main">
+<div class="vflex half-width">
+    <div class="full-width no-shrink top-bar">
+        <span class="logo">Ethan Kerzner</span>
+    </div>
 
-    <!-- Intro -->
-    <section id="top" class="one dark cover">
-        <div class="container">
-
-            <header>
-                <div class="row">
-                    <div class="3u 3u(mobile)">
-                        <span class="image"><img src="images/kerzner.jpg" style="border-radius: 50%; width: 100%;"
-                                                 alt=""/></span>
-                    </div>
-                    <div class="8u 8u(mobile)">
-                        <h2>Hi! I am a computer scientist focused on visualization and graphics.</h2><br>
-                        <a href="#projects" class="button scrolly">See my projects</a>
-                    </div>
-                </div>
-            </header>
-
-
+    <h1>
+        About
+    </h1>
+    <div class="hflex flex-root">
+        <div style="width: 40%;">
+            <img src="images/kerzner.jpg" alt="Mountain View" style="max-width: 95%; border-radius: 15px;">
         </div>
-    </section>
+        <p style="display:inline">I focus on the design and development of visualization software for expert users in
+            large organizations. In my
+            graduate work I conducted design studies to understand the analysis challenges of physicians, defense
+            analysts,
+            and neuroscientists. Throughout these projects, I have recommended solutions based on a mix of custom built
+            and commodity software. A select set of my projects is listed below. Please see my
+            <a href="https://scholar.google.com/citations?user=OgvMzlAAAAAJ&hl=en">scholar profile</a> for a full
+            publication and patent list.
+        </p>
 
-    <!-- Portfolio -->
-    <section id="projects" class="two">
-        <div class="container">
+    </div>
 
-            <header>
-                <h2>Projects</h2>
-            </header>
-
-            <p>Here's a select list of my projects. Please see my <a href="https://scholar.google.com/citations?user=OgvMzlAAAAAJ&hl=en">scholar profile</a> for a full publication list.</p>
-
-            <div class="row">
-                <div class="12u 12u$(mobile)">
-                    <article class="item">
-                        <header>
-                            <h3>Connectome Visualization
-                                <span class="date">
-                                    In progress
-                                </span>
-                            </h3>
-                        </header>
-                        <p>Visualization software to help neuroscientists reverse engineer the eye.
-                            <span class="resources">
-                                <a href="http://prometheus.med.utah.edu/~marclab/">collaborators</a>
-                            </span>
-                        </p>
-                    </article>
-                    <article class="item">
-                        <header>
-                            <h3>Visual Vulnerability Analysis
-                                <span class="date">
-                                        Published in EuroVis 2015
-                                </span>
-                            </h3>
-                        </header>
-                        <p>
-                            Software for defense analysts to understand vehicle vulnerability.
-                            <span class="resources">
-                                <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pdf">paper</a> |
-                                <a href="./projects/2015_eurovis_shotviewer.zip">source code (zip)</a> |
-                                <a href="./projects/2015_eurovis_data.zip">example data (zip)</a> |
-                                <a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pptx">slides
-                                    (pptx)</a>
-                            </span>
-                        </p>
-                    </article>
-                    <article class="item">
-                        <header>
-                            <h3>Streaming Compression for Anti-Aliasing
-                            <span class="date">
-                                Published in HPG 2014
-                            </span>
-                            </h3>
-                        </header>
-                        <p>
-                            An algorithm for reduced memory usage and shading costs of anti-aliasing.
-                            <span class="resources">
-                                <a href="./projects/2014_hpg_StreamingGBufferCompression.pdf">paper</a> |
-                                <a href="https://github.com/kerzner/streaming-g-buffer-compression">source
-                                    code
-                                    and data</a>
-                            </span>
-                        </p>
-                    </article>
-                </div>
-            </div>
-
+    <h1>
+        Projects
+    </h1>
+    <!--TODO; make these into nice titles + details-->
+    <div class="hflex flex-root">
+        <div>
+            <h3>Connectome visualization</h3>
         </div>
-    </section>
+
+
+    </div>
+
+    <!--<h3>Connectome Visualization-->
+    <!--<span class="date">-->
+    <!--In progress-->
+    <!--</span>-->
+    <!--</h3>-->
+    <!--</header>-->
+    <!--<p>Visualization software to help neuroscientists reverse engineer the eye.-->
+    <!--<span class="resources">-->
+    <!--<a href="http://prometheus.med.utah.edu/~marclab/">collaborators</a>-->
+    <!--</span>-->
+    <!--</p>-->
+    <!--</article>-->
+    <!--<article class="item">-->
+    <!--<header>-->
+    <!--<h3>Visual Vulnerability Analysis-->
+    <!--<span class="date">-->
+    <!--Published in EuroVis 2015-->
+    <!--</span>-->
+    <!--</h3>-->
+    <!--</header>-->
+    <!--<p>-->
+    <!--Software for defense analysts to understand vehicle vulnerability.-->
+    <!--<span class="resources">-->
+    <!--<a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pdf">paper</a> |-->
+    <!--<a href="./projects/2015_eurovis_shotviewer.zip">source code (zip)</a> |-->
+    <!--<a href="./projects/2015_eurovis_data.zip">example data (zip)</a> |-->
+    <!--<a href="./projects/2015_eurovis_AShotAtVisualVulnerabilityAnalysis.pptx">slides-->
+    <!--(pptx)</a>-->
+    <!--</span>-->
+    <!--</p>-->
+    <!--</article>-->
+    <!--<article class="item">-->
+    <!--<header>-->
+    <!--<h3>Streaming Compression for Anti-Aliasing-->
+    <!--<span class="date">-->
+    <!--Published in HPG 2014-->
+    <!--</span>-->
+    <!--</h3>-->
+    <!--</header>-->
+    <!--<p>-->
+    <!--An algorithm for reduced memory usage and shading costs of anti-aliasing.-->
+    <!--<span class="resources">-->
+    <!--<a href="./projects/2014_hpg_StreamingGBufferCompression.pdf">paper</a> |-->
+    <!--<a href="https://github.com/kerzner/streaming-g-buffer-compression">source-->
+    <!--code-->
+    <!--and data</a>-->
+    <!--</span>-->
+    <!--</p>-->
+    <!--</article>-->
+    <!--</div>-->
+    <!--</div>-->
 
     <!-- Contact -->
     <section id="contact" class="four">
@@ -174,21 +117,12 @@
 <div id="footer">
 
     <!-- Copyright -->
-    <ul class="copyright">
-        <li>&copy; Ethan Kerzner. All rights reserved. Design by <a href="http://html5up.net/">HTML5 UP</a></li>
-    </ul>
+
+    &copy; Ethan Kerzner. All rights reserved
+
 
 </div>
 
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollzer.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="assets/js/main.js"></script>
 
 </body>
 </html>
