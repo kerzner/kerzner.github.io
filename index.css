@@ -63,12 +63,17 @@ p {
   overflow: auto;
 }
 
+.project-teaser-img {
+  box-shadow: 3px 3px lightgrey;
+  min-height: 100px;
+  min-width: 200px;
+  max-width: 100%;
+}
+
 .project-teaser {
   display: inline;
   float: left;
   width: 25%;
-  min-height: 100px;
-  min-width: 200px;
   padding-right: 1.5em;
 }
 
