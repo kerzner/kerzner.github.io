@@ -64,10 +64,12 @@ p {
 }
 
 .project-teaser-img {
-  box-shadow: 3px 3px lightgrey;
+  box-shadow: 3px 3px 3px lightgrey;
   min-height: 100px;
   min-width: 200px;
   max-width: 100%;
+  border-radius: 3px;
+  border: thin solid grey;
 }
 
 .project-teaser {
