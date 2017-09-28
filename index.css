@@ -110,3 +110,8 @@ p {
   flex-direction: column;
 }
 
+.news {
+  border: thin solid darkred;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
