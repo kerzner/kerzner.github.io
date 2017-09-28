@@ -13,10 +13,18 @@ p {
 
 .title {
   margin-bottom: 0.5em;
+  width: 100%;
+  margin-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .title-text {
-  margin-bottom: -7px;
+  margin-bottom: -.5em;
+}
+
+.subtitle-text {
+  margin-top: -0.5em;
 }
 
 .container {
@@ -89,6 +97,7 @@ p {
 
 .project-links {
   float: right;
+  font-weight: normal;
 }
 
 .vflex {
